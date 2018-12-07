@@ -1,0 +1,63 @@
+body{
+    background-image: url("../Image/fond\ page1.png");
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+    border:  4px solid rgb(2, 51, 7);
+}
+
+img {
+    border : 4px solid rgb(2, 51, 7);
+    margin-left : 5%;
+    background-color: white;
+    height: 400px;
+    width: auto;
+}
+
+#bloc {
+    display: inline-block;
+    padding: 2%;
+    padding-left: 3%; 
+}
+
+#coupej {
+    display: inline-block;
+   padding: 2%;
+}
+
+#coupen {
+    display: inline-block;
+   padding: 2%;
+   padding-left: 3%;
+}
+
+#coupe {
+    display: inline-block;
+}  
+ 
+.dessins{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    vertical-align: top;
+}
+
+.dessins:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+
+
